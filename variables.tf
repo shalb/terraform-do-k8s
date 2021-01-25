@@ -9,8 +9,7 @@ variable region {
 }
 
 variable default_node_group {
-  type    = any
-  default = {}
+  type = any
 }
 
 

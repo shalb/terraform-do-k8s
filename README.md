@@ -21,7 +21,7 @@ Terraform module to create an managed kubernetes cluster in DigitalOcean cloud.
 |------|-------------|------|---------|:--------:|
 | additional\_node\_groups | A list of worker groups configs | `any` | `[]` | no |
 | cluster\_name | (Required) Provide DigitalOcean cluster name | `string` | n/a | yes |
-| default\_node\_group | n/a | `any` | `{}` | no |
+| default\_node\_group | n/a | `any` | n/a | yes |
 | k8s\_version | Provide DigitalOcean Kubernetes minor version (e.g. '1.15' or higher) | `string` | `"1.19.3-do"` | no |
 | kubeconfig\_bucket | Bucket name for kubeconfig upload | `string` | n/a | yes |
 | kubeconfig\_bucket\_key | Path and filename og kubeconfig in do spaces bucket | `string` | `"kubeconfig"` | no |
