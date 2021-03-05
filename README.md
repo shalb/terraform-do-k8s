@@ -35,6 +35,7 @@ Terraform module to create an managed kubernetes cluster in DigitalOcean cloud.
 |------|-------------|
 | cluster\_endpoint | n/a |
 | cluster\_status | n/a |
+| id | n/a |
 | kubeconfig | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
