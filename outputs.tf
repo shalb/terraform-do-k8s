@@ -13,3 +13,7 @@ output "kubeconfig" {
 output "id" {
   value = digitalocean_kubernetes_cluster.k8s.id
 }
+
+output "name" {
+  value = var.cluster_name
+}
